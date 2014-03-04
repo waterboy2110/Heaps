@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EEE008B18C5487B00EE45B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE008A18C5487B00EE45B4 /* main.cpp */; };
 		3EEE008D18C5487B00EE45B4 /* Heaps.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3EEE008C18C5487B00EE45B4 /* Heaps.1 */; };
+		3EEE009818C548B800EE45B4 /* ArrayMaxHeap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE009318C548B800EE45B4 /* ArrayMaxHeap.cpp */; };
+		3EEE009918C548B800EE45B4 /* Heap_PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE009518C548B800EE45B4 /* Heap_PriorityQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +27,13 @@
 
 /* Begin PBXFileReference section */
 		3EEE008718C5487B00EE45B4 /* Heaps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heaps; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EEE008A18C5487B00EE45B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3EEE008C18C5487B00EE45B4 /* Heaps.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Heaps.1; sourceTree = "<group>"; };
+		3EEE009318C548B800EE45B4 /* ArrayMaxHeap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayMaxHeap.cpp; sourceTree = "<group>"; };
+		3EEE009418C548B800EE45B4 /* ArrayMaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayMaxHeap.h; sourceTree = "<group>"; };
+		3EEE009518C548B800EE45B4 /* Heap_PriorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Heap_PriorityQueue.cpp; sourceTree = "<group>"; };
+		3EEE009618C548B800EE45B4 /* Heap_PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap_PriorityQueue.h; sourceTree = "<group>"; };
+		3EEE009718C548B800EE45B4 /* HeapInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapInterface.h; sourceTree = "<group>"; };
+		3EEE009A18C561C600EE45B4 /* PrecondViolatedExcep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecondViolatedExcep.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,13 @@
 		3EEE008918C5487B00EE45B4 /* Heaps */ = {
 			isa = PBXGroup;
 			children = (
-				3EEE008A18C5487B00EE45B4 /* main.cpp */,
+				3EEE009318C548B800EE45B4 /* ArrayMaxHeap.cpp */,
+				3EEE009418C548B800EE45B4 /* ArrayMaxHeap.h */,
+				3EEE009518C548B800EE45B4 /* Heap_PriorityQueue.cpp */,
+				3EEE009618C548B800EE45B4 /* Heap_PriorityQueue.h */,
+				3EEE009718C548B800EE45B4 /* HeapInterface.h */,
 				3EEE008C18C5487B00EE45B4 /* Heaps.1 */,
+				3EEE009A18C561C600EE45B4 /* PrecondViolatedExcep.h */,
 			);
 			path = Heaps;
 			sourceTree = "<group>";
@@ -117,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EEE008B18C5487B00EE45B4 /* main.cpp in Sources */,
+				3EEE009818C548B800EE45B4 /* ArrayMaxHeap.cpp in Sources */,
+				3EEE009918C548B800EE45B4 /* Heap_PriorityQueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
